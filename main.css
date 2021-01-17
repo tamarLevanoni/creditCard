@@ -1,0 +1,61 @@
+.postfix.button {
+  text-align: center;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  background-color: black;
+  color: #ffffff;
+}
+.row {
+  display: flex;
+  width: -webkit-fill-available;
+  padding-top: 10px;
+}
+form {
+  width: 100%;
+}
+#creditCard {
+  background-color: #155581;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 450px;
+  margin: 5px auto;
+}
+#about {
+  background-color: #499cbd;
+  width: 450px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: xx-large;
+  font-family: "Potta One", cursive;
+}
+p {
+  font-size: xx-large;
+  font-family: "Architects Daughter", cursive;
+}
+#thank {
+  background-color: #9fcae3;
+  width: 450px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: xx-large;
+}
+img {
+  padding: 10px;
+}
+.size1 {
+  width: 50%;
+}
+.size2 {
+  width: 25%;
+}
+.form-container {
+  width: 350px;
+  margin: 30px auto;
+  margin-top: 40px;
+}
+input {
+  width: -webkit-fill-available;
+}

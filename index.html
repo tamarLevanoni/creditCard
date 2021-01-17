@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <script src="https://kit.fontawesome.com/9dc7299f59.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="about">
+      <h2 id="hello">Hello!</h2>
+      <p id="text">
+        Here your credit card details are stolen,<br />
+        but in a cool way <i class="fas fa-grin-hearts"></i>
+      </p>
+      <img src="IdentityTheft_Anime.gif" />
+    </div>
+    <div id="creditCard">
+      <div class="card-wrapper"></div>
+      <!-- CSS is included via this JavaScript file -->
+      <script src="card.js"></script>
+      <div class="form-container">
+        <form action="">
+          <div class="row">
+            <div class="size1">
+              <input placeholder="Card number" type="text" name="number" />
+            </div>
+            <div class="size1">
+              <input placeholder="Full name" type="text" name="name" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="size2">
+              <input placeholder="MM/YY" type="text" name="expiry" />
+            </div>
+
+            <div class="size2">
+              <input placeholder="CVC" type="text" name="cvc" />
+            </div>
+
+            <div class="size1">
+              <input type="submit" value="Submit" class="button postfix" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <p id="thank">
+      Thank you!<br />
+      See you at the bank
+      <i class="far fa-kiss-wink-heart"></i>
+    </p>
+    <script src="main.js"></script>
+  </body>
+</html>
